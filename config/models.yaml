@@ -1,0 +1,31 @@
+# Catalogue des modèles exposés par la passerelle.
+# Les coûts sont indicatifs (USD / 1M tokens) : remplacez-les par vos tarifs Azure.
+# "deployment" = nom du déploiement dans Azure AI Foundry / Azure OpenAI.
+models:
+  - name: gpt-4o-mini
+    deployment: gpt-4o-mini
+    provider: azure-openai
+    cost_in: 0.15
+    cost_out: 0.60
+    p50_latency_ms: 600
+    quality: 2          # 1 = basique, 3 = raisonnement avancé
+    max_sensitivity: confidential
+  - name: gpt-4o
+    deployment: gpt-4o
+    provider: azure-openai
+    cost_in: 2.50
+    cost_out: 10.00
+    p50_latency_ms: 1400
+    quality: 3
+    max_sensitivity: confidential
+  - name: mistral-small-onprem
+    deployment: mistral-small
+    provider: local        # modèle hébergé dans le SI, aucune donnée ne sort
+    cost_in: 0.0
+    cost_out: 0.0
+    p50_latency_ms: 900
+    quality: 1
+    max_sensitivity: restricted
+
+# Niveaux de sensibilité, du moins au plus sensible.
+sensitivity_levels: [public, internal, confidential, restricted]
