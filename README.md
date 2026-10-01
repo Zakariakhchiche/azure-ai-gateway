@@ -6,6 +6,8 @@ C'est le motif que je mets en place chez les grands comptes sur Azure AI Foundry
 
 📝 Article : [A multi-LLM gateway on Azure: route each request to the cheapest model that is allowed and good enough](https://medium.com/@ZKHCHICHE/a-multi-llm-gateway-on-azure-route-each-request-to-the-cheapest-model-that-is-allowed-and-good-2d72878c6cfd) (Medium)
 
+🎓 Formation : je forme aussi les équipes avec Spar-x (organisme certifié Qualiopi, finançable OPCO) : [Formation Copilot Studio](https://zakariakhchiche.github.io/formation-copilot-studio/) · [Formation IA générative](https://zakariakhchiche.github.io/formation-ia-generative/) · [Kit AI Act article 4](https://zakariakhchiche.github.io/kit-ai-act/)
+
 ## Comment le routage décide
 
 ```mermaid
