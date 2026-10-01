@@ -4,6 +4,8 @@ Passerelle multi-LLM de référence : un point d'entrée unique devant plusieurs
 
 C'est le motif que je mets en place chez les grands comptes sur Azure AI Foundry : les équipes métier appellent une seule API, la DSI garde la main sur les coûts, la sécurité et la traçabilité.
 
+📝 Article : [A multi-LLM gateway on Azure: route each request to the cheapest model that is allowed and good enough](https://medium.com/@ZKHCHICHE/a-multi-llm-gateway-on-azure-route-each-request-to-the-cheapest-model-that-is-allowed-and-good-2d72878c6cfd) (Medium)
+
 ## Comment le routage décide
 
 ```mermaid
